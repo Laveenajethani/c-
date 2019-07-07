@@ -1,4 +1,4 @@
-# program to find next prime number
+/* program to find next prime number*/
 #include<iostream>
 using namespace std;
 bool is_prime(int);
