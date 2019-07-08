@@ -5,14 +5,14 @@ using namespace std;
 int main()
 {
     int n,fact=1,num;
-    num=n;
     cout<<"enter a number"<<endl;
     cin>>n;
-    while(n!=1)
+    num=n;
+    while(num!=1)
     {
-        fact=fact*n;
-        n--;
+        fact=fact*num;
+        num--;
     }
-    cout<<"factorial of: "<<num<<"\t"<<"is "<<fact<<endl;
+    cout<<"factorial of: "<<n<<"\t"<<"is "<<fact<<endl;
     return 0;
 }
