@@ -11,7 +11,7 @@ int main()
     cout<<i;
     return 0;
 }
-bool is_Prime(int a)
+bool is_prime(int a)
 {
     int count=0;
     for(int i=2;i<=a/2;i++)
